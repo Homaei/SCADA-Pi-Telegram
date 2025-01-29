@@ -23,7 +23,7 @@ This project utilizes a **Raspberry Pi Zero** as an intermediary to gather data 
 
 
 
----bash
+```bash
 SCADA-PiBot/
 │── scripts/
 │   ├── record_data.py        # Logs temperature & humidity
@@ -36,7 +36,7 @@ SCADA-PiBot/
 │── .gitignore                # Ignore unnecessary files (logs, cache, etc.)
 │── logs/                     # Directory for log files (ignored in .gitignore)
 │── config.py                 # Configuration settings (API keys, paths, etc.)
----
+```
 
 
 
