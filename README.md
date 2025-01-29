@@ -150,7 +150,7 @@ Interact with the Telegram Bot
 This project is licensed under the MIT License.
 
 👥 Contributors
-Hubert Homaei, Agustno di Bartelo
+- [Hubert Homaei](https://github.com/homaei) and [Aagustin di Bartolo](https://github.com/Jacklamotta).
 
 
 
