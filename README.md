@@ -66,8 +66,8 @@ pip3 install requests telebot flask paho-mqtt
 
 2. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/SCADA-PiBot.git
-cd SCADA-PiBot
+git clone https://github.com/Homaei/SCADA-Pi-Telegram.git
+cd SCADA-Pi-Telegram
 ```
 
 3. Set Up the Telegram Bot
