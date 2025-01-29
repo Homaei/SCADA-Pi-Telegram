@@ -1,0 +1,14 @@
+# Set the correct PATH for the cron environment
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Run data_collector.py every 2 hours
+0 */2 * * * /usr/bin/python3 /home/pi/data_collector.py
+
+# Run pi_status.py every 6 hours
+0 */6 * * * /usr/bin/python3 /home/pi/pi_status.py
+
+# Run the pre-reboot script and reboot at 7:55 AM every day
+55 7 * * * /usr/bin/python3 /home/pi/pre_reboot.py && sudo reboot
+
+# Run post_reboot.py automatically after reboot (Add this to /etc/rc.local)
+python3 /home/pi/post_reboot.py &
