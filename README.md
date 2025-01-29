@@ -23,7 +23,7 @@ This project utilizes a **Raspberry Pi Zero** as an intermediary to gather data 
 
 
 
----
+---bash
 SCADA-PiBot/
 │── scripts/
 │   ├── record_data.py        # Logs temperature & humidity
