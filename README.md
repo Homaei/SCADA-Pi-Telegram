@@ -21,6 +21,25 @@ This project utilizes a **Raspberry Pi Zero** as an intermediary to gather data 
 ✅ **Data Forwarding to Online Database** – Transfers SCADA logs in real-time.  
 ✅ **Router & Network Configuration Exploration** – Investigates possible data extraction methods.
 
+
+
+
+SCADA-PiBot/
+│── scripts/
+│   ├── record_data.py        # Logs temperature & humidity
+│   ├── pre_reboot.py         # Saves logs before reboot & notifies Telegram
+│   ├── post_reboot.py        # Sends notification after reboot
+│   ├── data_collector.py     # Runs every 2 hours (based on crontab)
+│   ├── pi_status.py          # Runs every 6 hours (based on crontab)
+│── crontab_config.txt        # Crontab settings for automation
+│── README.md                 # Project documentation
+│── .gitignore                # Ignore unnecessary files (logs, cache, etc.)
+│── logs/                     # Directory for log files (ignored in .gitignore)
+│── config.py                 # Configuration settings (API keys, paths, etc.)
+
+
+
+
 ---
 
 📡 System Architecture
