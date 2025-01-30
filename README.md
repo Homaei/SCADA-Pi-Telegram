@@ -142,8 +142,11 @@ Interact with the Telegram Bot
 🛠 Future Enhancements
 
 🔍 Improve SCADA Data Extraction (Direct Modbus/OPC-UA access).
+
 📡 Optimize Router Configuration (Intercept PLC traffic).
+
 🔐 Enhance Security Measures (VPN-based tunneling).
+
 📊 Implement Data Visualization (Grafana, InfluxDB integration).
 
 📝 License
