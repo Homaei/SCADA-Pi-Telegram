@@ -164,6 +164,6 @@ This project is licensed under the MIT License.
 - Update `config.py` paths and credentials before deploying.
 - Modify the **contributors** section if needed.
 
-This README follows GitHub markdown best practices and provides an **easy-to-follow installation guide, clear project overview, and next steps** for potential contributors. 🚀 Let me know if you want further modifications! 😊
+
 
 
