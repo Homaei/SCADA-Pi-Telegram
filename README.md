@@ -129,7 +129,7 @@ python3 main.py
 ```
 Interact with the Telegram Bot
 
-
+```bash
 +-------------+------------------------------------+
 | Command     | Description                        |
 +-------------+------------------------------------+
@@ -137,7 +137,7 @@ Interact with the Telegram Bot
 | /scada_data | Fetch latest SCADA readings        |
 | /help       | Show available commands            |
 +-------------+------------------------------------+
-
+```
 
 🛠 Future Enhancements
 
