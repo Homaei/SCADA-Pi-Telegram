@@ -147,7 +147,9 @@ Interact with the Telegram Bot
 
 🔐 Enhance Security Measures (VPN-based tunneling).
 
-📊 Implement Data Visualization (Grafana, InfluxDB integration).
+🗃 Saving data to a PostgreSQL database on a VPS.
+
+📊 Implement Data Visualization via Grafana.
 
 📝 License
 This project is licensed under the MIT License.
