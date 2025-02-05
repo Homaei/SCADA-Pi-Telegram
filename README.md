@@ -26,16 +26,28 @@ This project utilizes a **Raspberry Pi Zero** as an intermediary to gather data 
 ```bash
 SCADA-PiBot/
 │── scripts/
-│   ├── record_data.py        # Logs temperature & humidity
+│   ├── record_data.py        # Logs temperature, humidity, and SCADA parameters
 │   ├── pre_reboot.py         # Saves logs before reboot & notifies Telegram
 │   ├── post_reboot.py        # Sends notification after reboot
-│   ├── data_collector.py     # Runs every 2 hours (based on crontab)
-│   ├── pi_status.py          # Runs every 6 hours (based on crontab)
-│── crontab_config.txt        # Crontab settings for automation
-│── README.md                 # Project documentation
-│── .gitignore                # Ignore unnecessary files (logs, cache, etc.)
+│   ├── data_collector.py     # Collects SCADA data every 2 hours (based on crontab)
+│   ├── pi_status.py          # Monitors system status & reports every 6 hours
+│   ├── telegram_bot.py       # Manages Telegram bot interactions
+│   ├── modbus_reader.py      # Extracts PLC data via Modbus protocol
+│   ├── cloudflare_tunnel.py  # Handles secure communication via Cloudflare
+│── crontab_config.txt        # Crontab settings for periodic automation
+│── README.md                 # Project documentation & setup guide
+│── .gitignore                # Ignore unnecessary files (logs, cache, env, etc.)
 │── logs/                     # Directory for log files (ignored in .gitignore)
-│── config.py                 # Configuration settings (API keys, paths, etc.)
+│── config.py                 # Configuration settings (API keys, paths, bot tokens)
+│── SCADA-Pi-Telegram.svg     # System architecture diagram (for README display)
+│── image.png                 # Alternative architecture image in PNG format
+│── requirements.txt          # Python dependencies for easy setup
+│── LICENSE                   # License details for open-source usage
+│── tests/                    # Directory for unit tests & debugging scripts
+│   ├── test_modbus.py        # Test script for Modbus communication
+│   ├── test_telegram.py      # Test script for Telegram bot commands
+│   ├── test_status.py        # Checks Raspberry Pi resource monitoring
+
 ```
 
 
