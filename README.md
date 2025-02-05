@@ -46,14 +46,7 @@ SCADA-PiBot/
 │── SCADA-Pi-Telegram.svg     # System architecture diagram (for README display)
 │── requirements.txt          # Python dependencies for easy setup
 │── LICENSE                   # License details for open-source usage
-│── tests/                    # Directory for unit tests & debugging scripts
-│   ├── test_modbus.py        # Test script for Modbus communication
-│   ├── test_telegram.py      # Test script for Telegram bot commands
-│   ├── test_status.py        # Checks Raspberry Pi resource monitoring
-
 ```
-
-
 
 ---
 
