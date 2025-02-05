@@ -37,10 +37,8 @@ SCADA-PiBot/
 │── crontab_config.txt        # Crontab settings for periodic automation
 │── README.md                 # Project documentation & setup guide
 │── .gitignore                # Ignore unnecessary files (logs, cache, env, etc.)
-│── logs/                     # Directory for log files (ignored in .gitignore)
 │── config.py                 # Configuration settings (API keys, paths, bot tokens)
 │── SCADA-Pi-Telegram.svg     # System architecture diagram (for README display)
-│── image.png                 # Alternative architecture image in PNG format
 │── requirements.txt          # Python dependencies for easy setup
 │── LICENSE                   # License details for open-source usage
 │── tests/                    # Directory for unit tests & debugging scripts
