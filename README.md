@@ -1,25 +1,30 @@
-# SCADA-Pi-Telegram
-This is a remote monitoring system that integrates a Raspberry Pi, SCADA system, and Telegram bot to enable full-duplex communication for real-time status updates and command execution. The system allows data extraction from PLC-connected SCADA systems in a water treatment plant and transmits it securely to an online database or server.
-
-
-# SCADA-PiBot: Secure Remote Monitoring with Raspberry Pi & Telegram Bot  
-
-![Project Status](https://img.shields.io/badge/status-active-brightgreen)
-![Raspberry Pi](https://img.shields.io/badge/Hardware-Raspberry%20Pi-red)
-![SCADA](https://img.shields.io/badge/SCADA-Supported-blue)
-
 ## 📌 Project Overview  
-**SCADA-PiBot** is a full-duplex monitoring system that extracts and transmits **SCADA data** from an industrial **water treatment plant** to an **online database** while allowing real-time **two-way communication** via a **Telegram bot**.  
+**SCADA-PiBot** is a full-duplex monitoring and control system that integrates a **SCADA system, Raspberry Pi, and Telegram bot** to **remotely monitor and manage a water treatment plant**.  
 
-This project utilizes a **Raspberry Pi Zero** as an intermediary to gather data from the **PLC-connected SCADA system** and relay it securely. Since the **TL-6400 router operates with a SIM card and lacks a public IP**, **Cloudflare Tunnel** is employed to ensure secure remote access.
+The system extracts **real-time operational data** from **PLCs** connected to the SCADA system and securely transmits it to an **online database**. A **Cloudflare Tunnel** is used to bypass the lack of a public IP and enable secure remote communication. Additionally, operators can send commands via a **Telegram bot** to interact with the system.  
 
-## ✨ Key Features
-✅ **SCADA Data Extraction** – Retrieves operational data from PLC devices.  
-✅ **Two-Way Telegram Bot Communication** – Sends status updates and accepts user commands.  
-✅ **Cloudflare Tunnel Integration** – Secure remote access without a public IP.  
-✅ **Scheduled Monitoring with Crontab** – Periodic Raspberry Pi status updates.  
-✅ **Data Forwarding to Online Database** – Transfers SCADA logs in real-time.  
-✅ **Router & Network Configuration Exploration** – Investigates possible data extraction methods.
+The system architecture consists of:  
+- **SCADA System & PLCs** – The primary automation and data acquisition layer.  
+- **Raspberry Pi** – Acts as an intermediary, collecting SCADA data and handling remote communication.  
+- **Router (SIM-based)** – Connects the system to the internet via a **cellular network**, enabling data transfer.  
+- **Cloudflare Tunnel** – Provides a secure way to access the Raspberry Pi remotely.  
+- **VPS + Grafana** – Stores SCADA logs in a database and visualizes them in real-time.  
+- **Telegram Bot** – Allows operators to receive alerts and send remote commands.  
+
+---
+
+## ✨ Key Features  
+✅ **SCADA Data Acquisition** – Extracts real-time data from PLCs using **Modbus**.  
+✅ **Two-Way Telegram Bot Communication** – Sends automated alerts and allows remote control of the system.  
+✅ **Cloudflare Tunnel for Secure Remote Access** – Eliminates the need for a public IP.  
+✅ **Grafana Integration** – Visualizes data on a **VPS-hosted dashboard**.  
+✅ **Automated Status Updates** – Periodic reports on system health and network status via **crontab**.  
+✅ **Secure Communication** – Prevents unauthorized access using **authentication and encryption**.  
+✅ **Data Logging & Storage** – Sends SCADA readings to a **remote database** for analysis.  
+✅ **Edge Processing with Raspberry Pi** – Reduces latency by processing alerts locally before sending data.  
+✅ **Router-Based Connectivity** – Uses a **SIM card for internet access**, making it ideal for remote locations.  
+✅ **Scalable & Modular** – Can be extended to support additional IoT sensors or security features.  
+
 
 
 
