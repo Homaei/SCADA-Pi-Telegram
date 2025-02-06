@@ -143,16 +143,3 @@ This project is licensed under the MIT License.
 
 👥 Contributors
 - [Hubert Homaei](https://github.com/homaei) and [Aagustin di Bartolo](https://github.com/Jacklamotta).
-
-
-
----
-
-### **How to Use This README:**
-- Replace `YourUsername` with your actual GitHub username.
-- Update `config.py` paths and credentials before deploying.
-- Modify the **contributors** section if needed.
-
-
-
-
