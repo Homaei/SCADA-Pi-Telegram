@@ -8,14 +8,14 @@ The system architecture consists of:
 - **Raspberry Pi** – Acts as an intermediary, collecting SCADA data and handling remote communication.  
 - **Router (SIM-based)** – Connects the system to the internet via a **cellular network**, enabling data transfer.  
 - **Cloudflare Tunnel** – Provides a secure way to access the Raspberry Pi remotely.  
-- **VPS + Grafana** – Stores SCADA logs in a database and visualizes them in real-time.  
+- **VPS + Grafana** – Stores SCADA logs in a database and visualizes them in real time.  
 - **Telegram Bot** – Allows operators to receive alerts and send remote commands.  
 
 ---
 
 ## ✨ Key Features  
 ✅ **SCADA Data Acquisition** – Extracts real-time data from PLCs using **Modbus**.  
-✅ **Two-Way Telegram Bot Communication** – Sends automated alerts and allows remote control of the system.  
+✅ **Two-Way Telegram Bot Communication** – Sends automated alerts and allows remote system control.  
 ✅ **Cloudflare Tunnel for Secure Remote Access** – Eliminates the need for a public IP.  
 ✅ **Grafana Integration** – Visualizes data on a **VPS-hosted dashboard**.  
 ✅ **Automated Status Updates** – Periodic reports on system health and network status via **crontab**.  
