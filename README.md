@@ -53,7 +53,7 @@ SCADA-PiBot/
 ## 📡 System Architecture
 
 <p align="center">
-  <img src="https://github.com/Homaei/SCADA-Pi-Telegram/raw/main/SCADA-Pi-Telegram.webp" alt="SCADA-Pi-Telegram Architecture">
+  <img src="https://github.com/Homaei/SCADA-Pi-Telegram/raw/main/SCADA-Pi-Tel.webp" alt="SCADA-Pi-Telegram Architecture">
 </p>
 
 
