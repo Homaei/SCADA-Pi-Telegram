@@ -31,7 +31,7 @@ def record_data():
         print(f"Data recorded:\nTime: {current_time}\nTemperature: {temperature}°C\nHumidity: {humidity}%")
     except Exception as e:
         print(f"Error recording data: {e}")
-
+ 
 # Command to execute the script
 if __name__ == "__main__":
     print("Executing record_data.py to log temperature and humidity...")
