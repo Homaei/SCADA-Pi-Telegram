@@ -44,7 +44,7 @@ def get_uptime_emoji():
     Return an emoji for uptime (used in message formatting).
     :return: '⏰'
     """
-    return "⏰"
+    return "⏰" 
 
 # -------------------------------------------------------------------
 # FUNCTIONS FOR RASPBERRY PI STATUS
